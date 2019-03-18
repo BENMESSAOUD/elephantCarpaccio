@@ -26,6 +26,16 @@
 		1E09F1A5223F92B300791D5F /* ItemModuleWireFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F19F223F92B200791D5F /* ItemModuleWireFrameTests.swift */; };
 		1E09F1A6223F92B300791D5F /* ItemModuleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1A1223F92B200791D5F /* ItemModuleViewTests.swift */; };
 		1E09F1A7223F92B300791D5F /* ItemModuleInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1A3223F92B200791D5F /* ItemModuleInteractorTests.swift */; };
+		1E09F1B1223F931900791D5F /* TicketModulePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1AA223F931900791D5F /* TicketModulePresenterTests.swift */; };
+		1E09F1B2223F931900791D5F /* TicketModuleWireFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1AC223F931900791D5F /* TicketModuleWireFrameTests.swift */; };
+		1E09F1B3223F931900791D5F /* TicketModuleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1AE223F931900791D5F /* TicketModuleViewTests.swift */; };
+		1E09F1B4223F931900791D5F /* TicketModuleInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1B0223F931900791D5F /* TicketModuleInteractorTests.swift */; };
+		1E09F1C3223F932800791D5F /* TicketModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1B8223F932800791D5F /* TicketModuleInteractor.swift */; };
+		1E09F1C4223F932800791D5F /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1B9223F932800791D5F /* Ticket.swift */; };
+		1E09F1C5223F932800791D5F /* TicketModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1BB223F932800791D5F /* TicketModuleProtocols.swift */; };
+		1E09F1C6223F932800791D5F /* TicketModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1BE223F932800791D5F /* TicketModulePresenter.swift */; };
+		1E09F1C7223F932800791D5F /* TicketModuleWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1C0223F932800791D5F /* TicketModuleWireFrame.swift */; };
+		1E09F1C8223F932800791D5F /* TicketModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1C2223F932800791D5F /* TicketModuleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +72,16 @@
 		1E09F19F223F92B200791D5F /* ItemModuleWireFrameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModuleWireFrameTests.swift; sourceTree = "<group>"; };
 		1E09F1A1223F92B200791D5F /* ItemModuleViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModuleViewTests.swift; sourceTree = "<group>"; };
 		1E09F1A3223F92B200791D5F /* ItemModuleInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModuleInteractorTests.swift; sourceTree = "<group>"; };
+		1E09F1AA223F931900791D5F /* TicketModulePresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModulePresenterTests.swift; sourceTree = "<group>"; };
+		1E09F1AC223F931900791D5F /* TicketModuleWireFrameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModuleWireFrameTests.swift; sourceTree = "<group>"; };
+		1E09F1AE223F931900791D5F /* TicketModuleViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModuleViewTests.swift; sourceTree = "<group>"; };
+		1E09F1B0223F931900791D5F /* TicketModuleInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModuleInteractorTests.swift; sourceTree = "<group>"; };
+		1E09F1B8223F932800791D5F /* TicketModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModuleInteractor.swift; sourceTree = "<group>"; };
+		1E09F1B9223F932800791D5F /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		1E09F1BB223F932800791D5F /* TicketModuleProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModuleProtocols.swift; sourceTree = "<group>"; };
+		1E09F1BE223F932800791D5F /* TicketModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModulePresenter.swift; sourceTree = "<group>"; };
+		1E09F1C0223F932800791D5F /* TicketModuleWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModuleWireFrame.swift; sourceTree = "<group>"; };
+		1E09F1C2223F932800791D5F /* TicketModuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModuleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,7 @@
 		1E09F15B223F8D7700791D5F /* ElephantCarpaccio */ = {
 			isa = PBXGroup;
 			children = (
+				1E09F1B5223F932800791D5F /* TicketModule */,
 				1E09F187223F92A300791D5F /* ItemModule */,
 				1E09F17D223F8E0300791D5F /* BusinessLogic */,
 				1E09F17C223F8D9800791D5F /* Main */,
@@ -114,6 +135,7 @@
 		1E09F170223F8D7800791D5F /* ElephantCarpaccioTests */ = {
 			isa = PBXGroup;
 			children = (
+				1E09F1A8223F931900791D5F /* TicketModule */,
 				1E09F19B223F92B200791D5F /* ItemModule */,
 				1E09F17E223F8E5C00791D5F /* BusinessLogic */,
 				1E09F171223F8D7800791D5F /* ElephantCarpaccioTests.swift */,
@@ -263,6 +285,118 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
+		1E09F1A8223F931900791D5F /* TicketModule */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1A9223F931900791D5F /* Presenter */,
+				1E09F1AB223F931900791D5F /* WireFrame */,
+				1E09F1AD223F931900791D5F /* View */,
+				1E09F1AF223F931900791D5F /* Interactor */,
+			);
+			path = TicketModule;
+			sourceTree = "<group>";
+		};
+		1E09F1A9223F931900791D5F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1AA223F931900791D5F /* TicketModulePresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1E09F1AB223F931900791D5F /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1AC223F931900791D5F /* TicketModuleWireFrameTests.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		1E09F1AD223F931900791D5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1AE223F931900791D5F /* TicketModuleViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E09F1AF223F931900791D5F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1B0223F931900791D5F /* TicketModuleInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1E09F1B5223F932800791D5F /* TicketModule */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1B6223F932800791D5F /* Application Logic */,
+				1E09F1BA223F932800791D5F /* Protocols */,
+				1E09F1BC223F932800791D5F /* User Interface */,
+			);
+			path = TicketModule;
+			sourceTree = "<group>";
+		};
+		1E09F1B6223F932800791D5F /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1B7223F932800791D5F /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1E09F1B7223F932800791D5F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1B8223F932800791D5F /* TicketModuleInteractor.swift */,
+				1E09F1B9223F932800791D5F /* Ticket.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1E09F1BA223F932800791D5F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1BB223F932800791D5F /* TicketModuleProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1E09F1BC223F932800791D5F /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1BD223F932800791D5F /* Presenter */,
+				1E09F1BF223F932800791D5F /* WireFrame */,
+				1E09F1C1223F932800791D5F /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1E09F1BD223F932800791D5F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1BE223F932800791D5F /* TicketModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1E09F1BF223F932800791D5F /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1C0223F932800791D5F /* TicketModuleWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		1E09F1C1223F932800791D5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1C2223F932800791D5F /* TicketModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -364,11 +498,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E09F1C4223F932800791D5F /* Ticket.swift in Sources */,
+				1E09F1C5223F932800791D5F /* TicketModuleProtocols.swift in Sources */,
 				1E09F195223F92A300791D5F /* Item.swift in Sources */,
 				1E09F198223F92A300791D5F /* ItemModulePresenter.swift in Sources */,
+				1E09F1C7223F932800791D5F /* TicketModuleWireFrame.swift in Sources */,
 				1E09F196223F92A300791D5F /* ItemModuleInteractor.swift in Sources */,
+				1E09F1C8223F932800791D5F /* TicketModuleView.swift in Sources */,
 				1E09F199223F92A300791D5F /* ItemModuleWireFrame.swift in Sources */,
+				1E09F1C3223F932800791D5F /* TicketModuleInteractor.swift in Sources */,
 				1E09F19A223F92A300791D5F /* ItemModuleView.swift in Sources */,
+				1E09F1C6223F932800791D5F /* TicketModulePresenter.swift in Sources */,
 				1E09F197223F92A300791D5F /* ItemModuleProtocols.swift in Sources */,
 				1E09F15D223F8D7700791D5F /* AppDelegate.swift in Sources */,
 				1E09F180223F8EAC00791D5F /* Calculator.swift in Sources */,
@@ -380,9 +520,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E09F1B1223F931900791D5F /* TicketModulePresenterTests.swift in Sources */,
 				1E09F1A7223F92B300791D5F /* ItemModuleInteractorTests.swift in Sources */,
 				1E09F172223F8D7800791D5F /* ElephantCarpaccioTests.swift in Sources */,
+				1E09F1B2223F931900791D5F /* TicketModuleWireFrameTests.swift in Sources */,
+				1E09F1B3223F931900791D5F /* TicketModuleViewTests.swift in Sources */,
 				1E09F1A5223F92B300791D5F /* ItemModuleWireFrameTests.swift in Sources */,
+				1E09F1B4223F931900791D5F /* TicketModuleInteractorTests.swift in Sources */,
 				1E09F1A4223F92B300791D5F /* ItemModulePresenterTests.swift in Sources */,
 				1E09F1A6223F92B300791D5F /* ItemModuleViewTests.swift in Sources */,
 				1E09F186223F909F00791D5F /* ItemValidatorTests.swift in Sources */,
