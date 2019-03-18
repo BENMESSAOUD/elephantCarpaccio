@@ -20,12 +20,14 @@ class TicketModuleInteractor: TicketModuleInteractorInputProtocol {
     func printTicket() {
         let totals  = getTicketTotals()
         let totalDiscount = calculator.calculateDiscount(total: totals.total)
+        let finalPrice = calculator.calculateFinalPrice(total: totals.total, totalTax: totals.totalTax, discount: totalDiscount)
+        
         
         let list = totals.list
-        let totalWithoutTax = "Total without taxes : \(totals.total)"
-        let totalTax = "Tax \(ticket.state.tax()) % : +\(totals.totalTax)"
-        let discountRow = "Discount \(calculator.getDiscountRate(totals.total))% : -\(totalDiscount)"
-        let totalPrice = "Total price  : \(calculator.calculateFinalPrice(total: totals.total, totalTax: totals.totalTax, discount: totalDiscount))"
+        let totalWithoutTax = "Total without taxes : \(String(format: "%0.2f", totals.total))"
+        let totalTax = "Tax \(ticket.state.tax()) % : +\(String(format: "%0.2f", totals.totalTax))"
+        let discountRow = "Discount \(calculator.getDiscountRate(totals.total))% : -\(String(format: "%0.2f", totalDiscount))"
+        let totalPrice = "Total price  : \(String(format: "%0.2f", finalPrice))"
         let separator = "\n\n-------------------------------\n\n"
         
         let result = "\(list)\(separator)\(totalWithoutTax)\n\(discountRow)\n\(totalTax)\(separator)\(totalPrice)"

@@ -36,6 +36,14 @@
 		1E09F1C6223F932800791D5F /* TicketModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1BE223F932800791D5F /* TicketModulePresenter.swift */; };
 		1E09F1C7223F932800791D5F /* TicketModuleWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1C0223F932800791D5F /* TicketModuleWireFrame.swift */; };
 		1E09F1C8223F932800791D5F /* TicketModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1C2223F932800791D5F /* TicketModuleView.swift */; };
+		1E09F1D9223F942300791D5F /* HomeModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1CC223F942300791D5F /* HomeModuleInteractor.swift */; };
+		1E09F1DA223F942400791D5F /* HomeModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1CE223F942300791D5F /* HomeModuleProtocols.swift */; };
+		1E09F1DB223F942400791D5F /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1D1223F942300791D5F /* ItemViewModel.swift */; };
+		1E09F1DC223F942400791D5F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1D2223F942300791D5F /* HomeViewModel.swift */; };
+		1E09F1DD223F942400791D5F /* HomeModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1D3223F942300791D5F /* HomeModulePresenter.swift */; };
+		1E09F1DE223F942400791D5F /* HomeModuleWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1D5223F942300791D5F /* HomeModuleWireFrame.swift */; };
+		1E09F1DF223F942400791D5F /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1D7223F942300791D5F /* ItemTableViewCell.swift */; };
+		1E09F1E0223F942400791D5F /* HomeModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09F1D8223F942300791D5F /* HomeModuleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +90,14 @@
 		1E09F1BE223F932800791D5F /* TicketModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModulePresenter.swift; sourceTree = "<group>"; };
 		1E09F1C0223F932800791D5F /* TicketModuleWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModuleWireFrame.swift; sourceTree = "<group>"; };
 		1E09F1C2223F932800791D5F /* TicketModuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModuleView.swift; sourceTree = "<group>"; };
+		1E09F1CC223F942300791D5F /* HomeModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModuleInteractor.swift; sourceTree = "<group>"; };
+		1E09F1CE223F942300791D5F /* HomeModuleProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModuleProtocols.swift; sourceTree = "<group>"; };
+		1E09F1D1223F942300791D5F /* ItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		1E09F1D2223F942300791D5F /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1E09F1D3223F942300791D5F /* HomeModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModulePresenter.swift; sourceTree = "<group>"; };
+		1E09F1D5223F942300791D5F /* HomeModuleWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModuleWireFrame.swift; sourceTree = "<group>"; };
+		1E09F1D7223F942300791D5F /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		1E09F1D8223F942300791D5F /* HomeModuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModuleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +139,7 @@
 		1E09F15B223F8D7700791D5F /* ElephantCarpaccio */ = {
 			isa = PBXGroup;
 			children = (
+				1E09F1C9223F942300791D5F /* HomeModule */,
 				1E09F1B5223F932800791D5F /* TicketModule */,
 				1E09F187223F92A300791D5F /* ItemModule */,
 				1E09F17D223F8E0300791D5F /* BusinessLogic */,
@@ -397,6 +414,77 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1E09F1C9223F942300791D5F /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1CA223F942300791D5F /* Application Logic */,
+				1E09F1CD223F942300791D5F /* Protocols */,
+				1E09F1CF223F942300791D5F /* User Interface */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		1E09F1CA223F942300791D5F /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1CB223F942300791D5F /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1E09F1CB223F942300791D5F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1CC223F942300791D5F /* HomeModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1E09F1CD223F942300791D5F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1CE223F942300791D5F /* HomeModuleProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1E09F1CF223F942300791D5F /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1D0223F942300791D5F /* Presenter */,
+				1E09F1D4223F942300791D5F /* WireFrame */,
+				1E09F1D6223F942300791D5F /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1E09F1D0223F942300791D5F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1D1223F942300791D5F /* ItemViewModel.swift */,
+				1E09F1D2223F942300791D5F /* HomeViewModel.swift */,
+				1E09F1D3223F942300791D5F /* HomeModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1E09F1D4223F942300791D5F /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1D5223F942300791D5F /* HomeModuleWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		1E09F1D6223F942300791D5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E09F1D7223F942300791D5F /* ItemTableViewCell.swift */,
+				1E09F1D8223F942300791D5F /* HomeModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -498,13 +586,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E09F1DC223F942400791D5F /* HomeViewModel.swift in Sources */,
+				1E09F1E0223F942400791D5F /* HomeModuleView.swift in Sources */,
 				1E09F1C4223F932800791D5F /* Ticket.swift in Sources */,
 				1E09F1C5223F932800791D5F /* TicketModuleProtocols.swift in Sources */,
+				1E09F1DE223F942400791D5F /* HomeModuleWireFrame.swift in Sources */,
 				1E09F195223F92A300791D5F /* Item.swift in Sources */,
 				1E09F198223F92A300791D5F /* ItemModulePresenter.swift in Sources */,
 				1E09F1C7223F932800791D5F /* TicketModuleWireFrame.swift in Sources */,
+				1E09F1DB223F942400791D5F /* ItemViewModel.swift in Sources */,
+				1E09F1DD223F942400791D5F /* HomeModulePresenter.swift in Sources */,
 				1E09F196223F92A300791D5F /* ItemModuleInteractor.swift in Sources */,
 				1E09F1C8223F932800791D5F /* TicketModuleView.swift in Sources */,
+				1E09F1DA223F942400791D5F /* HomeModuleProtocols.swift in Sources */,
 				1E09F199223F92A300791D5F /* ItemModuleWireFrame.swift in Sources */,
 				1E09F1C3223F932800791D5F /* TicketModuleInteractor.swift in Sources */,
 				1E09F19A223F92A300791D5F /* ItemModuleView.swift in Sources */,
@@ -513,6 +607,8 @@
 				1E09F15D223F8D7700791D5F /* AppDelegate.swift in Sources */,
 				1E09F180223F8EAC00791D5F /* Calculator.swift in Sources */,
 				1E09F184223F908A00791D5F /* ItemValidator.swift in Sources */,
+				1E09F1DF223F942400791D5F /* ItemTableViewCell.swift in Sources */,
+				1E09F1D9223F942300791D5F /* HomeModuleInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
